@@ -114,6 +114,14 @@ button:hover {
   margin-bottom: 50px;
 }
 
-.btn-pause-resume{
-    
+.btn-pause-resume {
+}
+
+@media only screen and (max-device-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    padding: 0.5em;
+  }
 }
